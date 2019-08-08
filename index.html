@@ -1,0 +1,31 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default2.aspx.cs" Inherits="Default2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>LOGIN</title>
+</head>
+<body>
+    <form id="form1" runat="server" >
+        <div>
+            <center>
+            <h1>LOGIN</h1>
+
+            <label>Usuario</label> 
+            <asp:TextBox ID="txtUser" runat="server"></asp:TextBox>
+              <br><br/>
+            <label>Contraseña</label>
+            <asp:TextBox ID="txtContra" runat="server"  type="password"></asp:TextBox>
+                <br><br/>
+         
+            <asp:Button ID="Button1" runat="server" Height="22px" OnClick="Button1_Click" Text="Iniciar Sesion" Width="198px" />
+         
+            </center>
+    </form>
+        
+        </div>
+   
+</body>
+</html>
